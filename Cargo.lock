@@ -62,7 +62,7 @@ checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 [[package]]
 name = "driver-collect"
 version = "0.1.0"
-source = "git+https://github.com/rel4team/driver-collect.git?branch=mi_dev#d974f8613aec34e73bc1d7d197d54f38bec0b5b3"
+source = "git+https://github.com/reL4team2/driver-collect.git?branch=master#d974f8613aec34e73bc1d7d197d54f38bec0b5b3"
 dependencies = [
  "cfg-if",
  "serial-frame",
@@ -167,7 +167,7 @@ checksum = "94143f37725109f92c262ed2cf5e59bce7498c01bcc1502d7b9afe439a4e9f49"
 [[package]]
 name = "sel4_common"
 version = "0.1.0"
-source = "git+https://github.com/rel4team/sel4_common.git?branch=mi_dev#20c8691b361603049ee77df6e7a58298e352fc5c"
+source = "git+https://github.com/reL4team2/sel4_common.git?branch=master#20c8691b361603049ee77df6e7a58298e352fc5c"
 dependencies = [
  "driver-collect",
  "log",
@@ -178,7 +178,7 @@ dependencies = [
 [[package]]
 name = "sel4_cspace"
 version = "0.1.0"
-source = "git+https://github.com/rel4team/sel4_cspace.git?branch=mi_dev#d023c27cca2f3edb56ed0a120c04f22cc6a99989"
+source = "git+https://github.com/reL4team2/sel4_cspace.git?branch=master#d023c27cca2f3edb56ed0a120c04f22cc6a99989"
 dependencies = [
  "riscv",
  "sel4_common",
@@ -214,12 +214,12 @@ checksum = "388a1df253eca08550bef6c72392cfe7c30914bf41df5269b68cbd6ff8f570a3"
 [[package]]
 name = "serial-frame"
 version = "0.1.0"
-source = "git+https://github.com/rel4team/serial-frame.git?branch=mi_dev#e7616371b86fe65d7464dbc0239d49f959b14d81"
+source = "git+https://github.com/reL4team2/serial-frame.git?branch=master#e7616371b86fe65d7464dbc0239d49f959b14d81"
 
 [[package]]
 name = "serial-impl-pl011"
 version = "0.1.0"
-source = "git+https://github.com/rel4team/serial-impl-pl011.git?branch=mi_dev#0a821ec3476a515208c934d07515939b2340ad44"
+source = "git+https://github.com/reL4team2/serial-impl-pl011.git?branch=master#0a821ec3476a515208c934d07515939b2340ad44"
 dependencies = [
  "serial-frame",
  "tock-registers 0.9.0",
@@ -228,7 +228,7 @@ dependencies = [
 [[package]]
 name = "serial-impl-sbi"
 version = "0.1.0"
-source = "git+https://github.com/rel4team/serial-impl-sbi.git?branch=mi_dev#1cd1af47fb1029a1b272ac59f574598bb3dad284"
+source = "git+https://github.com/reL4team2/serial-impl-sbi.git?branch=master#1cd1af47fb1029a1b272ac59f574598bb3dad284"
 dependencies = [
  "serial-frame",
 ]
