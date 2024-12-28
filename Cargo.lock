@@ -135,7 +135,7 @@ checksum = "94143f37725109f92c262ed2cf5e59bce7498c01bcc1502d7b9afe439a4e9f49"
 [[package]]
 name = "sel4_common"
 version = "0.1.0"
-source = "git+https://github.com/rel4team/sel4_common.git#70d9ea260e1aafe5f62c918e818c2354317e7116"
+source = "git+https://github.com/reL4team2/sel4_common.git#70d9ea260e1aafe5f62c918e818c2354317e7116"
 dependencies = [
  "log",
  "riscv",
@@ -145,7 +145,7 @@ dependencies = [
 [[package]]
 name = "sel4_cspace"
 version = "0.1.0"
-source = "git+https://github.com/rel4team/sel4_cspace.git#710723bd017ecce35b624f135a8102fd0d7f7294"
+source = "git+https://github.com/reL4team2/sel4_cspace.git#710723bd017ecce35b624f135a8102fd0d7f7294"
 dependencies = [
  "sel4_common",
 ]
